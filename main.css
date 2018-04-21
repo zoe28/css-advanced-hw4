@@ -1,0 +1,49 @@
+body {
+  color: #222;
+  line-height: 1.7;
+  font-size: 16px;
+  padding: 3em;
+  background-image: url(background.jpeg);
+  background-size: cover;
+  font-family: 'Gaegu', cursive;
+  min-height: 100vh;
+}
+
+h2 {
+  color: #905146;
+}
+
+.label {
+  color: #9f7a42;
+}
+
+#container {
+  border: 1px solid lightcoral;
+  padding: 1em 2em;
+  border-radius: 1em;
+  font-size: 1.5em;
+  display: inline-block;
+}
+
+button {
+  box-shadow: 1px 0 0.1em rgba(163, 41, 41, 0.466);
+  background-image: linear-gradient(to right bottom, #5f85a5, #668eaf, #6c97b8, #73a1c2, #7aaacc); 
+  padding: 0.25em 1.5em;
+  border-radius: 0.5em;
+  font-size: 1em;
+  color: #7e4d3a;
+  transition: padding 1s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.85;
+  cursor: pointer;
+  color: #397c4d;
+  padding: 0.25em 3em;
+}
+
+@media(max-width: 768px) {
+  button {
+    width: 100%;
+  }
+}
